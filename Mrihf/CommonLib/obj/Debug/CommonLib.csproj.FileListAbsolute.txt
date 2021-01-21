@@ -22,3 +22,10 @@ F:\Source Code\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.csprojAssemblyR
 F:\Source Code\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.csproj.CopyComplete
 F:\Source Code\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.dll
 F:\Source Code\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\CommonLib.dll
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\CommonLib.pdb
+C:\Users\yang\Source\Repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.csprojAssemblyReference.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.csproj.CoreCompileInputs.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.csproj.CopyComplete
+C:\Users\yang\Source\Repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\yang\Source\Repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\CommonLib.pdb

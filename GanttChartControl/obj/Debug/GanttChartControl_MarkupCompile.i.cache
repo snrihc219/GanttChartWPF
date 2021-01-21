@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\Source Code\GanttChartWPF\GanttChartControl\obj\Debug\
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\
 GanttChartControl
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 11-448091203
 
-21-420196883
-17-1883958556
+21-673175127
+17967098514
 PrintListWindow.xaml;Themes\ThumbStyle.xaml;Themes\LineServiceChartControlStyle.xaml;Themes\ElectrocardiogramControlStyle.xaml;Themes\GanttChartGridStyle.xaml;Themes\ProjectInfoControlStyle.xaml;Themes\ProjectItemControlStyle.xaml;Themes\OperationMonitorChartPageControlStyle.xaml;Themes\RowColumnGridStyle.xaml;Themes\TimeHeaderStyle.xaml;Themes\ProjectItemTreeControlStyle.xaml;
 
 True

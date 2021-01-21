@@ -22,3 +22,20 @@ F:\Source Code\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.pdb
 F:\Source Code\GanttChartWPF\Output\GanttChartWPF.exe.config
 F:\Source Code\GanttChartWPF\Output\GanttChartWPF.exe
 F:\Source Code\GanttChartWPF\Output\GanttChartWPF.pdb
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\GanttChartWPF.exe.config
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\GanttChartWPF.exe
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\GanttChartWPF.pdb
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.csprojAssemblyReference.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\MainWindow.g.cs
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\App.g.cs
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF_MarkupCompile.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF_MarkupCompile.lref
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\App.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\MainWindow.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.g.resources
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.Properties.Resources.resources
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.csproj.GenerateResource.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.csproj.CoreCompileInputs.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.csproj.CopyComplete
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.exe
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartWPF\obj\Debug\GanttChartWPF.pdb

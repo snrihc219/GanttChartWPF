@@ -1,0 +1,9 @@
+C:\Users\yang\source\repos\GanttChartWPF\Output\net45\CommonLib.dll
+C:\Users\yang\source\repos\GanttChartWPF\Output\net45\CommonLib.pdb
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.csprojAssemblyReference.cache
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.AssemblyInfoInputs.cache
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.AssemblyInfo.cs
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.csproj.CoreCompileInputs.cache
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.csproj.CopyComplete
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.dll
+C:\Users\yang\source\repos\GanttChartWPF\Mrihf\CommonLib\obj\Debug\net45\CommonLib.pdb

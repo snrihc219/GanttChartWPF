@@ -25,3 +25,26 @@ F:\Source Code\GanttChartWPF\GanttChartControl\obj\Debug\PrintListWindow.g.cs
 F:\Source Code\GanttChartWPF\GanttChartControl\obj\Debug\PrintListWindow.baml
 F:\Source Code\GanttChartWPF\Output\GanttChartControl.dll
 F:\Source Code\GanttChartWPF\Output\GanttChartControl.pdb
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\GanttChartControl.dll
+C:\Users\yang\Source\Repos\GanttChartWPF\Output\GanttChartControl.pdb
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl.csprojAssemblyReference.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\PrintListWindow.g.cs
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl_MarkupCompile.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl_MarkupCompile.lref
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\PrintListWindow.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\ThumbStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\LineServiceChartControlStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\ElectrocardiogramControlStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\GanttChartGridStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\ProjectInfoControlStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\ProjectItemControlStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\OperationMonitorChartPageControlStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\RowColumnGridStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\TimeHeaderStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\Themes\ProjectItemTreeControlStyle.baml
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl.g.resources
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl.csproj.CoreCompileInputs.cache
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl.csproj.CopyComplete
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl.dll
+C:\Users\yang\Source\Repos\GanttChartWPF\GanttChartControl\obj\Debug\GanttChartControl.pdb

@@ -13,7 +13,9 @@
                 <ControlTemplate TargetType="{x:Type local:RowsGridPresenter}">
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            Width="{TemplateBinding Width}" 
+                            Height="{TemplateBinding Height}">
                         <Grid>
                             <!--<ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>-->
                             <Canvas x:Name="borderChart"></Canvas>

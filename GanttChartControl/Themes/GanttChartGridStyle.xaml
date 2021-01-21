@@ -19,11 +19,15 @@
                                 <ColumnDefinition Width="200"></ColumnDefinition>
                                 <ColumnDefinition></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                            <Border BorderThickness="1,1,1,0" Grid.ColumnSpan="2" Width="{Binding ElementName=gd,Path=ActualWidth}" BorderBrush="Black" VerticalAlignment="Bottom" Height="17">
+                            <Border BorderThickness="1,1,1,0" Grid.ColumnSpan="2" Width="{Binding ElementName=gd,Path=ActualWidth}" 
+                                    BorderBrush="Black" VerticalAlignment="Bottom" Height="17">
                                 
                             </Border>
-                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="{Binding HeaderTitle,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}"></TextBlock>
-                            <local:TimeHeaderControl Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" ItemsSource="{Binding GanttItemsSourceHeader,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}">
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                                       Text="{Binding HeaderTitle,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}"/>
+                            <local:TimeHeaderControl Grid.Column="1" VerticalAlignment="Bottom" 
+                                                     HorizontalAlignment="Left" 
+                                                     ItemsSource="{Binding GanttItemsSourceHeader,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}">
                                 <local:TimeHeaderControl.ItemTemplate>
                                     <DataTemplate>
                                         <Grid>
@@ -32,17 +36,21 @@
                                     </DataTemplate>
                                 </local:TimeHeaderControl.ItemTemplate>
                             </local:TimeHeaderControl>
-                            <local:ProjectTreeControl Grid.Row="1" ItemsSource="{Binding GanttItemsSourceTree.Children,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}">
+                            <local:ProjectTreeControl Grid.Row="1" 
+                                                      ItemsSource="{Binding GanttItemsSourceTree.Children,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}">
                                 <local:ProjectTreeControl.ItemTemplate>
                                     <HierarchicalDataTemplate ItemsSource="{Binding Children}">
                                         <Grid>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding ProjectName}"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" 
+                                                       Text="{Binding ProjectName}"/>
                                         </Grid>
                                     </HierarchicalDataTemplate>
                                 </local:ProjectTreeControl.ItemTemplate>
                             </local:ProjectTreeControl>
-                            <local:RowsGridPresenter Grid.Column="1" Grid.Row="1" IsGanttChart="True" GanttColumnsItem="{Binding GanttColumnsItem,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}" LineRowsItem="{Binding GanttRowsItem,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}"></local:RowsGridPresenter>
-                            
+                            <local:RowsGridPresenter Grid.Column="1" Grid.Row="1" IsGanttChart="True" 
+                                                     GanttColumnsItem="{Binding GanttColumnsItem,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}" 
+                                                     LineRowsItem="{Binding GanttRowsItem,RelativeSource={RelativeSource AncestorType={x:Type local:GanttChartGridControl}}}"/>
+
                         </Grid>
                     </Border>
                 </ControlTemplate>

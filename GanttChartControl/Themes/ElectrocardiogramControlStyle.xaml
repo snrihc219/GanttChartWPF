@@ -19,21 +19,26 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
                             <Border BorderThickness="0,0,1,0" BorderBrush="Black">
-                                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Title,RelativeSource={RelativeSource AncestorType={x:Type local:ElectrocardiogramControl}}}"></TextBlock>
+                                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                           Text="{Binding Title,RelativeSource={RelativeSource AncestorType={x:Type local:ElectrocardiogramControl}}}"></TextBlock>
                             </Border>
-                            <local:ProjectItemControl Grid.Column="1" Margin="30,0,0,0" VerticalAlignment="Center" ItemsSource="{Binding LegendItems,RelativeSource={RelativeSource AncestorType={x:Type local:ElectrocardiogramControl}}}">
+                            <local:ProjectItemControl Grid.Column="1" Margin="30,0,0,0" VerticalAlignment="Center" 
+                                                      ItemsSource="{Binding LegendItems,RelativeSource={RelativeSource AncestorType={x:Type local:ElectrocardiogramControl}}}">
                                 <local:ProjectItemControl.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
                                             <TextBlock Foreground="{Binding Color}" Text="{Binding TitleIcon}"></TextBlock>
-                                            <Path Width="12" Height="6" Stretch="Fill" Stroke="{Binding Color}" Data="{Binding TitleIconGeometry}" Visibility="{Binding TitleIconGeometry,Converter={StaticResource conNull}}"></Path>
+                                            <Path Width="12" Height="6" Stretch="Fill" Stroke="{Binding Color}" 
+                                                  Data="{Binding TitleIconGeometry}" Visibility="{Binding TitleIconGeometry,Converter={StaticResource conNull}}"></Path>
                                             <TextBlock Foreground="{Binding Color}" Text="{Binding Title}"></TextBlock>
                                             
                                         </StackPanel>
                                     </DataTemplate>
                                 </local:ProjectItemControl.ItemTemplate>
                             </local:ProjectItemControl>
-                            <local:ProjectItemControl Grid.Column="1" ItemContainerStyle="{DynamicResource LengendTopItemStyle}" VerticalAlignment="Top" HorizontalAlignment="Right" ItemsSource="{Binding LineLegendTopItem,RelativeSource={RelativeSource AncestorType={x:Type local:ElectrocardiogramControl}}}">
+                            <local:ProjectItemControl Grid.Column="1" ItemContainerStyle="{DynamicResource LengendTopItemStyle}" 
+                                                      VerticalAlignment="Top" HorizontalAlignment="Right" 
+                                                      ItemsSource="{Binding LineLegendTopItem,RelativeSource={RelativeSource AncestorType={x:Type local:ElectrocardiogramControl}}}">
                                 <local:ProjectItemControl.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
@@ -59,7 +64,9 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:YAxisControl}">
-                    <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                    <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            SnapsToDevicePixels="true">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="20" />
@@ -100,7 +107,10 @@
                             BorderBrush="{TemplateBinding BorderBrush}" Height="{TemplateBinding Height}"
                             BorderThickness="{TemplateBinding BorderThickness}">
                         <Grid>
-                            <ContentPresenter Margin="{Binding FirstMargin,RelativeSource={RelativeSource AncestorType={x:Type local:YAxisTitleControl}}}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <ContentPresenter Margin="{Binding FirstMargin,RelativeSource={RelativeSource AncestorType={x:Type local:YAxisTitleControl}}}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
                         </Grid>
 
                         

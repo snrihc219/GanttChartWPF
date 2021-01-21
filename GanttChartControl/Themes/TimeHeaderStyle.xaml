@@ -23,7 +23,7 @@
         <Setter Property="ItemsPanel">
             <Setter.Value>
                 <ItemsPanelTemplate>
-                    <StackPanel Orientation="Horizontal" IsItemsHost="True"></StackPanel>
+                    <StackPanel Orientation="Horizontal" IsItemsHost="True"/>
                 </ItemsPanelTemplate>
             </Setter.Value>
         </Setter>
@@ -38,10 +38,15 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:TimeContentControl}">
-                    <Border Background="{TemplateBinding Background}" Width="{TemplateBinding Width}"
-                            BorderBrush="{TemplateBinding BorderBrush}" Height="{TemplateBinding Height}"
+                    <Border Background="{TemplateBinding Background}" 
+                            Width="{TemplateBinding Width}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Height="{TemplateBinding Height}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <ContentPresenter Margin="-15,0,0,0" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        <ContentPresenter Margin="-15,0,0,0" 
+                                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                          SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

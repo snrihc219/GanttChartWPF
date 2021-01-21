@@ -22,3 +22,13 @@ C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\obj\Debug\netcoreapp3.1\G
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\obj\Debug\netcoreapp3.1\GanttChartWPF.dll
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\obj\Debug\netcoreapp3.1\GanttChartWPF.pdb
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\obj\Debug\netcoreapp3.1\GanttChartWPF.genruntimeconfig.cache
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.exe
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.dll.config
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.deps.json
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.runtimeconfig.json
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.runtimeconfig.dev.json
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.dll
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartWPF.pdb
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartControl.dll
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartWPF\bin\Debug\netcoreapp3.1\GanttChartControl.pdb

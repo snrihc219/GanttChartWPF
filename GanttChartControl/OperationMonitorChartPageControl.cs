@@ -1,4 +1,4 @@
-﻿using CommonLib;
+﻿using AutoMapper;
 using GanttChartControl.Models;
 using System;
 using System.Collections.Generic;
@@ -238,14 +238,22 @@ namespace GanttChartControl
             }
             else if (e.Property.Name == "LineServiceData")
             {
+                var config = new MapperConfiguration(cfg => {
+                    cfg.CreateMap<LineService, LineService>();
+                });
+                IMapper mapper = config.CreateMapper();
+
                 foreach (var item in this.ItemsSource)
                 {
                     int index = (item as PageChartModel).PageIndex;
                     OperationMonitorChartControl chart = this.ItemContainerGenerator.ContainerFromItem(item) as OperationMonitorChartControl;
                     ObservableCollection<LineService> temp = new ObservableCollection<LineService>();
+
                     foreach (var lineData in LineServiceData)
                     {
-                        LineService lineService = ObjectMapper.CopyTo<LineService>(lineData);
+                        var lineService = mapper.Map<LineService, LineService>(lineData);
+
+                        //LineService lineService = ObjectMapper.CopyTo<LineService>(lineData);
                         ObservableCollection<LineData> lineDatas = new ObservableCollection<LineData>();
                         foreach (var time in lineData.LineServicesData)
                         {

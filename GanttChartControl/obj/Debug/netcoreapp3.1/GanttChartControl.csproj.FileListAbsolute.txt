@@ -21,6 +21,8 @@ C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3.1\Themes\ThumbStyle.baml
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3.1\Themes\TimeHeaderStyle.baml
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3.1\GanttChartControl.g.resources
-C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3.1\GanttChartControl.csproj.CopyComplete
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3.1\GanttChartControl.dll
 C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\obj\Debug\netcoreapp3.1\GanttChartControl.pdb
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\bin\Debug\netcoreapp3.1\GanttChartControl.deps.json
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\bin\Debug\netcoreapp3.1\GanttChartControl.dll
+C:\Users\yang\source\repos\GanttChartWPF\GanttChartControl\bin\Debug\netcoreapp3.1\GanttChartControl.pdb

@@ -10,7 +10,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
-    <OutputPath>..\Output\</OutputPath>
+    <OutputPath></OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -18,6 +18,5 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\GanttChartControl\GanttChartControl.csproj" />
-    <ProjectReference Include="..\Mrihf\CommonLib\CommonLib.csproj" />
   </ItemGroup>
 </Project>

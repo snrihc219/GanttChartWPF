@@ -11,7 +11,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonLib
+namespace GanttChartControl
 {
     public class NotifyPropertyChanged: INotifyPropertyChanged
     {

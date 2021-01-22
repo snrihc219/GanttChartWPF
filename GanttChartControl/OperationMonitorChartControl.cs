@@ -40,7 +40,6 @@ namespace GanttChartControl
         // Using a DependencyProperty as the backing store for GanttItemsSourceHeader.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty GanttItemsSourceHeaderProperty =
             DependencyProperty.Register("GanttItemsSourceHeader", typeof(ObservableCollection<TimeItemModel>), typeof(OperationMonitorChartControl));
-
         
         public ObservableCollection<LineLegendGroupModel> ProjectGroupInfo
         {

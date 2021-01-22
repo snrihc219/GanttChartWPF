@@ -18,7 +18,7 @@
                             Height="{TemplateBinding Height}">
                         <Grid>
                             <!--<ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>-->
-                            <Canvas x:Name="borderChart"></Canvas>
+                            <Canvas x:Name="borderChart"/>
                         </Grid>
                     </Border>
                 </ControlTemplate>

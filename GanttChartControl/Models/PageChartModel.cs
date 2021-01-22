@@ -18,7 +18,5 @@ namespace GanttChartControl.Models
 			get { return _pageIndex; }
 			set { Set(ref _pageIndex, value); }
 		}
-
-
 	}
 }

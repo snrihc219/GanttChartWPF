@@ -34,7 +34,5 @@ namespace GanttChartControl.Models
             get { return _dateTimeList; }
             set { Set(ref _dateTimeList, value); }
         }
-
-
     }
 }

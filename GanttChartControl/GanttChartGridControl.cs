@@ -98,8 +98,6 @@ namespace GanttChartControl
             DependencyProperty.Register("GanttColumnsItem", typeof(ObservableCollection<TimeItemModel>), typeof(GanttChartGridControl), new PropertyMetadata(new ObservableCollection<TimeItemModel>()));
 
 
-
-
         public string HeaderTitle
         {
             get { return (string)GetValue(HeaderTitleProperty); }
@@ -109,8 +107,5 @@ namespace GanttChartControl
         // Using a DependencyProperty as the backing store for HeaderTitle.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty HeaderTitleProperty =
             DependencyProperty.Register("HeaderTitle", typeof(string), typeof(GanttChartGridControl));
-
-
-
     }
 }

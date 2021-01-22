@@ -504,11 +504,8 @@ namespace GanttChartControl
                         BorderChart.Children.Add(line);
                         BorderChart.Children.Add(line2);
                     }
-                    
-
                 }
             }
         }
     }
-
 }

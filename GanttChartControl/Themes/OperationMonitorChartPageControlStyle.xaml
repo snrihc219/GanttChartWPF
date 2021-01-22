@@ -37,8 +37,11 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:OperationMonitorChartControl}">
                     <StackPanel>
-                        <local:GanttChartGridControl HeaderTitle="{Binding HeaderTimeTitle,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" GanttItemsSourceHeader="{Binding GanttItemsSourceHeader,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartControl}}}" GanttItemsSourceTree="{Binding GanttItemsSourceTree,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" />
-                        <local:LineServiceChartControl x:Name="chart"
+                        <local:GanttChartGridControl 
+                            HeaderTitle="{Binding HeaderTimeTitle,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" 
+                            GanttItemsSourceHeader="{Binding GanttItemsSourceHeader,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartControl}}}" 
+                            GanttItemsSourceTree="{Binding GanttItemsSourceTree,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" />
+                        <!--<local:LineServiceChartControl x:Name="chart"
                             Title="{Binding LineChartTitle,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" 
                             Y1AxisScale="{Binding Y1AxisScale,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" 
                             Y1AxisScaleTitle="{Binding Y1AxisScaleTitle,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartPageControl}}}" 
@@ -48,7 +51,7 @@
                             LineServiceData="{Binding LineServiceData,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartControl}}}"  
                             ProjectGroupInfo="{Binding ProjectGroupInfo,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartControl}}}"
                             LineXTimeSource="{Binding GanttItemsSourceHeader,RelativeSource={RelativeSource AncestorType={x:Type local:OperationMonitorChartControl}}}">
-                        </local:LineServiceChartControl>
+                        </local:LineServiceChartControl>-->
                         
                     </StackPanel>
                 </ControlTemplate>

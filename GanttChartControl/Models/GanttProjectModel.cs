@@ -145,5 +145,14 @@ namespace GanttChartControl.Models
 			set { Set(ref _children, value); }
 		}
 
+		private string _description;
+		/// <summary>
+		/// The description of the model
+		/// </summary>
+		public string Description
+        {
+			get => _description;
+			set => Set(ref _description, value);
+        }
 	}
 }

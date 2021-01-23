@@ -54,9 +54,5 @@ namespace GanttChartControl
         // Using a DependencyProperty as the backing store for FirstMargin.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty FirstMarginProperty =
             DependencyProperty.Register("FirstMargin", typeof(Thickness), typeof(YAxisTitleControl));
-
-
-
-
     }
 }

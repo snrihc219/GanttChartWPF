@@ -18,11 +18,12 @@ namespace GanttChartControl.Models
         public DateTime TimeName
         {
             get { return _timeName; }
-            set {
-
+            set 
+            {
                 DateTimeList.Add(value.AddMinutes(5));
                 DateTimeList.Add(value.AddMinutes(10));
-                Set(ref _timeName, value); }
+                Set(ref _timeName, value); 
+            }
         }
         private ObservableCollection<DateTime> _dateTimeList = new ObservableCollection<DateTime>();
 

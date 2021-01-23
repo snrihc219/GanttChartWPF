@@ -22,10 +22,5 @@ namespace GanttChartControl
             bool _isITV = item is TimeContentControl;
             return _isITV;
         }
-
-    }
-    public class TimeContentControl : ContentControl
-    {
-        
     }
 }

@@ -67,6 +67,5 @@ namespace GanttChartControl.Models
             get { return _screenPointY; }
             set { Set(ref _screenPointY, value); }
         }
-
     }
 }

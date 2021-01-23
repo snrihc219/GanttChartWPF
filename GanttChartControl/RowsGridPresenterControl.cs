@@ -249,9 +249,11 @@ namespace GanttChartControl
         {
             for (int i = 0; i < points.Length; i++)
             {
-                TextBlock tb = new TextBlock();
-                tb.Text = description;
-                tb.Foreground = color;
+                TextBlock tb = new TextBlock
+                {
+                    Text = description,
+                    Foreground = color
+                };
                 Canvas.SetLeft(tb, points[i].X);
                 Canvas.SetTop(tb, points[i].Y);
                 this.BorderChart.Children.Add(tb);
@@ -282,7 +284,6 @@ namespace GanttChartControl
                         {
                             info.LineServicesData[i].ScreenPointY = BorderChart.Height - (info.LineServicesData[i].PointY * num3);
                         }
-
                     }
                 }
                 foreach (LineService curve in this.LineServicesData)
@@ -331,7 +332,6 @@ namespace GanttChartControl
                             DrawDescriptionChartData(curve.LineLegendTopItem.Color, array, curve.LineServicesData[0].InfoDescription);
                     }
                 }
-
             }
         }
 
@@ -354,7 +354,6 @@ namespace GanttChartControl
                     {
                         lineService.LineServicesData[i].ScreenPointY = BorderChart.Height - (lineService.LineServicesData[i].PointY * num3);
                     }
-
                 }
 
                 Point[] array = new Point[lineService.LineServicesData.Count];
@@ -364,9 +363,7 @@ namespace GanttChartControl
                 }
                 if ((lineService.ChartLineType == ChartLineType.BezierType) || (lineService.ChartLineType == ChartLineType.BezierKnotsType))
                 {
-                    Point[] pointArray2;
-                    Point[] pointArray3;
-                    BezierSpline.GetCurveControlPoints(array, out pointArray2, out pointArray3);
+                    BezierSpline.GetCurveControlPoints(array, out Point[] pointArray2, out Point[] pointArray3);
                     this.DrawBezierChartData(lineService.LineLegendItem.Color, array, pointArray2, pointArray3);
                     if (lineService.ChartLineType == ChartLineType.BezierKnotsType)
                     {
@@ -380,7 +377,6 @@ namespace GanttChartControl
                         DrawPolylineKnotsChartData(array, lineService);
                     }
                 }
-
             }
         }
         public void DrawingGantt()
@@ -435,7 +431,6 @@ namespace GanttChartControl
                             row.StartPointY = rowIndex * 18;
                         }
                     }
-
                 }
 
                 foreach (var item in LineRowsItem)
@@ -444,9 +439,11 @@ namespace GanttChartControl
                         continue;
                     if (item.IsSinglePoint)
                     {
-                        TextBlock tb = new TextBlock();
-                        tb.Text = item.Value.ToString() + item.UnitName;
-                        tb.Foreground = new SolidColorBrush(Colors.Blue);
+                        TextBlock tb = new TextBlock
+                        {
+                            Text = item.Value.ToString() + item.UnitName,
+                            Foreground = new SolidColorBrush(Colors.Blue)
+                        };
                         Canvas.SetLeft(tb, item.StartPointX);
                         Canvas.SetTop(tb, item.StartPointY);
                         this.BorderChart.Children.Add(tb);
@@ -455,54 +452,26 @@ namespace GanttChartControl
                     {
                         if (item.StartPointY != item.EndPointY)
                             continue;
-                        TextBlock tb = new TextBlock();
-                        tb.Text = item.Value.ToString() + item.UnitName;
-                        tb.Foreground = new SolidColorBrush(Colors.Blue);
+                        TextBlock tb = new TextBlock
+                        {
+                            Text = item.Value.ToString() + item.UnitName,
+                            Foreground = new SolidColorBrush(Colors.Blue)
+                        };
                         Canvas.SetLeft(tb, item.StartPointX + (item.EndPointX - item.StartPointX) / 2 - tb.Text.Length * 7 / 2);
                         Canvas.SetTop(tb, item.StartPointY);
 
-                        Line line = new Line();
-                        line.StrokeThickness = 1;
-                        line.Stroke = new SolidColorBrush(Colors.Blue);
-                        line.X1 = item.StartPointX;
-                        line.X2 = item.StartPointX + (item.EndPointX - item.StartPointX) / 2 - tb.Text.Length * 7 / 2;
-                        
-                        line.Y1 = item.StartPointY + 8;
-                        line.Y2 = item.EndPointY + 8;
-                        Line line2 = new Line();
-                        line2.StrokeThickness = 1;
-                        line2.Stroke = new SolidColorBrush(Colors.Blue);
-                        line2.X1 = item.StartPointX + (item.EndPointX - item.StartPointX) / 2 + tb.Text.Length * 7 / 2;
-                        line2.X2 = item.EndPointX;
-                        line2.Y1 = item.StartPointY + 8;
-                        line2.Y2 = item.EndPointY + 8;
-                       
-                        this.BorderChart.Children.Add(tb);
-                        if (item.IsStart)
+                        Rectangle rectangle = new Rectangle
                         {
-                            Line startLine = new Line();
-                            startLine.StrokeThickness = 2;
-                            startLine.Stroke = new SolidColorBrush(Colors.Blue);
-                            startLine.X1 = item.StartPointX;
-                            startLine.X2 = item.StartPointX;
-                            startLine.Y1 = item.StartPointY + 3;
-                            startLine.Y2 = item.StartPointY + 12;
-                            BorderChart.Children.Add(startLine);
-                        }
+                            Margin = new Thickness(item.StartPointX, item.StartPointY, 0, 0),
+                            StrokeThickness = 1,
+                            //Fill = Brushes.Blue,
+                            Stroke = new SolidColorBrush(Colors.Blue),
+                            Width = item.EndPointX - item.StartPointX,
+                            Height = 10
+                        };
 
-                        if (item.IsEnd)
-                        {
-                            Line endLine = new Line();
-                            endLine.StrokeThickness = 2;
-                            endLine.Stroke = new SolidColorBrush(Colors.Blue);
-                            endLine.X1 = item.EndPointX;
-                            endLine.X2 = item.EndPointX;
-                            endLine.Y1 = item.EndPointY + 3;
-                            endLine.Y2 = item.EndPointY + 12;
-                            BorderChart.Children.Add(endLine);
-                        }
-                        BorderChart.Children.Add(line);
-                        BorderChart.Children.Add(line2);
+                        this.BorderChart.Children.Add(tb);
+                        BorderChart.Children.Add(rectangle);
                     }
                 }
             }

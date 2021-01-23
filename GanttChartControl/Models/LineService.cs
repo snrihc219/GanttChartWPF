@@ -62,7 +62,5 @@ namespace GanttChartControl.Models
             get { return _chartLineType; }
             set { Set(ref _chartLineType, value); }
         }
-
-
     }
 }

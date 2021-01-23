@@ -174,6 +174,59 @@ namespace GanttChartWPF
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            GanttProjectModel = new GanttProjectModel()
+            {
+                Children = new ObservableCollection<GanttProjectModel>
+                {
+                    new GanttProjectModel() {  ProjectName="1",Value=12, UnitName="(mg)",StartTime=new DateTime(2020,1,16,9,40,0),EndTime=new DateTime(2020,1,16,11,20,0)},
+                    new GanttProjectModel() {  ProjectName="2",Value=4,UnitName="(mg)",StartTime=new DateTime(2020,1,16,11,20,0)},
+                    new GanttProjectModel() {  ProjectName="3",Value=10000,UnitName="(mg)",StartTime=new DateTime(2020,1,16,8,0,0),EndTime=new DateTime(2020,1,16,10,30,0)},
+                    new GanttProjectModel() {  ProjectName="4",Value=0.5,UnitName="(mg)",StartTime=new DateTime(2020,1,16,9,0,0)},
+                    new GanttProjectModel() {  ProjectName="5",Value=5,UnitName="(mg)",StartTime=new DateTime(2020,1,16,9,45,0)},
+                    new GanttProjectModel() {  ProjectName="6",Value=5,UnitName="(mg)",StartTime=new DateTime(2020,1,16,11,0,0)},
+                    new GanttProjectModel(),
+                    new GanttProjectModel(),
+                }
+            };
+            TimeItemModels = new ObservableCollection<TimeItemModel>
+            {
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 8, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 8, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 8, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 8, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 9, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 9, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 9, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 9, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 10, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 10, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 10, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 10, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 11, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 11, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 11, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 11, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 12, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 12, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 12, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 12, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 13, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 13, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 13, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 13, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 14, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 14, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 14, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 14, 45, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 15, 0, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 15, 15, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 15, 30, 0) },
+                new TimeItemModel() { TimeName = new DateTime(2020, 1, 16, 15, 45, 0) }
+            };
+        }
+
+        private void Window_Loaded0(object sender, RoutedEventArgs e)
+        {
             
             GanttProjectModel ganttProjectModel = new GanttProjectModel();
             ganttProjectModel.Children.Add(new GanttProjectModel()
